@@ -1,0 +1,27 @@
+/* have Buttons on the same line */
+div{
+ display: inline;
+}
+
+/* Common Style for all buttons */
+.btn {
+    padding: 15px 32px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 2.5px;
+}
+
+/* Individual styles for buttons */
+
+.btn-1 {
+    background-color: green;
+}
+.btn-2 {
+    background-color: blue;
+}
+.btn-3 {
+    background-color: purple;
+}
