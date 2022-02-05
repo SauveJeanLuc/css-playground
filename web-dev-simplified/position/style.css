@@ -9,6 +9,9 @@
 
 .child-one{
   background-color: rgb(116, 225, 116);
+  /* Not generrally used as styling elements around it gets harder */
+  position: relative;
+  left: 10px; 
 }
 
 .child-two{
