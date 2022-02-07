@@ -11,9 +11,9 @@
 
 .child-one{
   background-color: rgb(116, 225, 116);
-  /* Like absolute but don't depend on parent */
-  position: fixed;
-  top: 0px;
+  /* Stays on position mentionned */
+  position: sticky;
+  top: 10px;
 }
 
 .child-two{
