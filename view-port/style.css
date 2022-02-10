@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 .hero {
     height: 75vh;
     background: linear-gradient(45deg, #DA4453, #89216B);
@@ -8,3 +11,6 @@
     background: linear-gradient(115deg, #4e54c8, #8f94fb);
 }
 
+.hero, .sub-hero{
+    display: flex;
+}
