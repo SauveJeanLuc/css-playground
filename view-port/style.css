@@ -13,4 +13,11 @@
 
 .hero, .sub-hero{
     display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    margin-left: -50vw;
 }
