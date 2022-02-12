@@ -12,5 +12,12 @@ body{
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 50 px 1fr 1fr 100px;
+    grid-template-rows: 50px 1fr 1fr 100px;
+
+    /* Adds gaps excluding the edge of the container */
+    gap: 10px;
+
+    /* Adds gaps including the edge of the container */
+    padding: 10px;
+    box-sizing: border-box;
 }
